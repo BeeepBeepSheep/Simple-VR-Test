@@ -1,0 +1,33 @@
+{
+    "name": "VR Input",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "d14ca6ad-9bc5-4f2a-8df7-99607a5902ce",
+            "actions": [
+                {
+                    "name": "Teleport",
+                    "type": "Button",
+                    "id": "802fecd2-4273-4b15-a744-54f1d3df2158",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8247ab39-c4f7-4f67-afa2-b23f3bc7881f",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Teleport",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

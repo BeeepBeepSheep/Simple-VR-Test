@@ -12,23 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 4
+  version: 6
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TownScaper_PlantsMaterials
-  m_Shader: {fileID: -6465566751694194690, guid: ed4b96b5e8d3a6741b0ff7669779bbea, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: -6465566751694194690, guid: ed4b96b5e8d3a6741b0ff7669779bbea,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -132,6 +137,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Vector1_22ef4ed8b353458fa1a4f398af7ee030: 1
     - Vector1_2c7300b31dfa4f78ad135c9565f8c5ba: 0
@@ -173,6 +179,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _REFLECTIONS_IOR: 1.52
     - _REFLECTIONS_ROUGHNESS: 1
@@ -191,10 +198,13 @@ Material:
     - Color_096d9124f2094422a1d0049e8c739071: {r: 0, g: 0, b: 0, a: 0}
     - Color_0d3ad5f534a044a4a9c46adec5943545: {r: 1, g: 0, b: 0.8985181, a: 1}
     - Color_6c2cbba8cf7c4010b1a8eb1dba78e329: {r: 0, g: 0, b: 0, a: 0}
-    - Color_a86f5df813534b7581eab6ea0b292913: {r: 0.12344251, g: 0.3584906, b: 0.29857633, a: 1}
-    - Color_ae0ee7d65c54403e8c0a9fe9ebce9cf8: {r: 0.4575472, g: 1, b: 0.79867727, a: 1}
+    - Color_a86f5df813534b7581eab6ea0b292913: {r: 0.12344251, g: 0.3584906, b: 0.29857633,
+        a: 1}
+    - Color_ae0ee7d65c54403e8c0a9fe9ebce9cf8: {r: 0.4575472, g: 1, b: 0.79867727,
+        a: 1}
     - Color_e5963c6631bb444f8a1fe09685635121: {r: 0, g: 1, b: 0, a: 1}
-    - Color_e7383b7ebe704117af1bab224c0e6445: {r: 0.8584906, g: 0.52293843, b: 0, a: 1}
+    - Color_e7383b7ebe704117af1bab224c0e6445: {r: 0.8584906, g: 0.52293843, b: 0,
+        a: 1}
     - Vector2_3e295df59b6f4d869085fb536365d35c: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_e8677bdde144473db47ad3f7a967260c: {r: 0, g: 0, b: 0, a: 0}
     - _BASE_COLOR: {r: 1, g: 1, b: 1, a: 1}

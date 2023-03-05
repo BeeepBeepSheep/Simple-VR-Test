@@ -23,7 +23,7 @@ public class PlayerWalk : MonoBehaviour
 
     public void OnMove(InputAction.CallbackContext context)
     {
-        moveDirection = context.ReadValue<Vector2>(); // get input
+        inputDirection = context.ReadValue<Vector2>(); // get input
     }
 
     public void MovePlayer()

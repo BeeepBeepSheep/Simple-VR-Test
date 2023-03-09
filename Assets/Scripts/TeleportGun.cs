@@ -13,7 +13,6 @@ public class TeleportGun : MonoBehaviour
     public Transform barrelPont; // gun barrel aim direction
     public Transform teleportPoint; // point to telport to
     public float range = 25f; //range of teleport
-    private float isBeingHeld;
 
 
     void Start()
@@ -23,9 +22,9 @@ public class TeleportGun : MonoBehaviour
         grabbable_cs.activated.AddListener(DoTeleport); //listens for interaction input
     }
 
-    public void DoTeleport(ActivateEventArgs argument) 
+    public void DoTeleport(ActivateEventArgs argument) //when input heard from listener
     {
-        playerRig.position = teleportPoint.position;
+        playerRig.position = teleportPoint.position;//set player pos tp teleport point
     }
 
     private void FixedUpdate()
@@ -33,9 +32,13 @@ public class TeleportGun : MonoBehaviour
         RaycastHit hit; //raycast variable
         if (Physics.Raycast(barrelPont.position, barrelPont.transform.forward, out hit, range))
         {
+            teleportPoint.gameObject.SetActive(true);//shows point if hit
+
             teleportPoint.position = hit.point; //sets teleport point to ray hit point
         }
+        else//hides teleport point if no hit
+        {
+            teleportPoint.gameObject.SetActive(false);
+        }
     }
-
-
 }

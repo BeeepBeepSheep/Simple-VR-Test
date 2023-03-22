@@ -17,7 +17,14 @@ ModelImporter:
     removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
+      copied configuration does not match position in animation file:\n\t'mixamorig:LeftUpLeg'
+      : position error = 7.267228 mm\n\t'mixamorig:LeftLeg' : position error = 14.535645
+      mm\n\t'mixamorig:LeftFoot' : position error = 1.441509 mm\n\t'mixamorig:LeftToeBase'
+      : position error = 16.890202 mm\n\t'mixamorig:RightUpLeg' : position error
+      = 6.769203 mm\n\t'mixamorig:RightLeg' : position error = 14.529237 mm\n\t'mixamorig:RightFoot'
+      : position error = 1.407806 mm\n\t'mixamorig:RightToeBase' : position error
+      = 16.864487 mm\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
